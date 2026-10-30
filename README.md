@@ -1,6 +1,6 @@
 # Catálogo de Produtos
 
-SPA em React + Vite que lista os produtos da [API de Produtos](https://github.com/Samuelf-Gil/api-produtos), permite pesquisar por nome e consultar os detalhes de um produto, sem recarregar a página.
+SPA em React + Vite que lista os produtos da API REST de produtos (Node.js + Express) desenvolvida na atividade anterior, permite pesquisar por nome e consultar os detalhes de um produto, sem recarregar a página.
 
 ## Como executar
 
@@ -8,9 +8,9 @@ Pré-requisito: Node.js 20.19+ (testado com Node 24).
 
 ### 1. Subir a API de produtos
 
+Na pasta da API:
+
 ```bash
-git clone https://github.com/Samuelf-Gil/api-produtos.git
-cd api-produtos
 npm install
 npm start
 ```
@@ -20,7 +20,7 @@ A API sobe em `http://localhost:3000`.
 ### 2. Subir o catálogo
 
 ```bash
-git clone https://github.com/Samuelf-Gil/catalogo-produtos.git
+git clone https://github.com/SamuelfGil/catalogo-produtos.git
 cd catalogo-produtos
 npm install
 npm run dev
