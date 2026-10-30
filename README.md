@@ -19,9 +19,9 @@ A API sobe em `http://localhost:3000`.
 
 ### 2. Subir o catálogo
 
+Na pasta do catálogo:
+
 ```bash
-git clone https://github.com/SamuelfGil/catalogo-produtos.git
-cd catalogo-produtos
 npm install
 npm run dev
 ```
